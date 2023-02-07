@@ -1,20 +1,13 @@
 {
-    "inbounds": [
-        {
-            "port": 10086, // 服务器监听端口
-            "protocol": "vmess",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "bc243ea2-48e9-4763-4633-f3ec6bed0568"
-                    }
-                ]
-            }
-        }
-    ],
-    "outbounds": [
-        {
-            "protocol": "freedom"
-        }
-    ]
+  "inbounds": [{
+    "port": 10086, // 服务器监听端口，必须和上面的一样
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{ "id": "bc243ea2-48e9-4763-4633-f3ec6bed0568" }]
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
 }
